@@ -10,7 +10,24 @@ This is a **Ruby on Rails** application, with basic unit tests, for which covera
 
 ## Configuration
 
-This project is written in `Ruby 2.6.3` using `Rails 5.2.3`  
+This project is written in `Ruby 2.6.3` using `Rails 5.2.3`. Unit tests are written in the [RSpec Rails](https://github.com/rspec/rspec-rails) framework. Coverage reports are generated through [SimpleCov](https://github.com/colszowka/simplecov)
+
+Unit tests: `spec/index_spec.rb` which tests `lib/index.rb`
+
+Gemfile configuration:
+```
+gem 'codecov', require: false
+gem 'simplecov', require: false
+```
+RSpec configuration (top of `spec/spec_helper.rb`):
+```
+require 'simplecov'
+SimpleCov.start
+
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
+```
+> `spec_helper.rb` is a file that contains settings specific to RSpec. If you're using another testing framework, you'll need to put this information in some other helper Ruby file. For example, if you're using Minitest, which is prepackaged with all Rails applications, you'll need to put the above lines of code inside `test/test_helper.rb`
 
 ## Reporting Issues
 
