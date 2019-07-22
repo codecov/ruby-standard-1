@@ -8,6 +8,10 @@
 
 This is a **Ruby on Rails** application, with basic unit tests, for which coverage is uploaded to Codecov on a daily basis via the [Codecov Gem](https://rubygems.org/gems/codecov/versions/0.1.4). It can also serve as an example for how to integrate Codecov into your Ruby project. If the build is passing for this project, then Codecov's Ruby report processing is functional and correct on codecov.io.
 
+## What's the difference between `Ruby-Standard-1` and `Ruby-Standard-2`?
+
+This repo, Ruby-Standard-1, uses the Codecov gem to process coverage reports, while [Ruby-Standard-2](https://github.com/codecov/Ruby-Standard-2) uses Codecov's bash uploader to process reports. Otherwise, everything is the same between these two repos.
+
 ## Configuration
 
 This project is written in `Ruby 2.6.3` using `Rails 5.2.3`. Unit tests are written in the [RSpec Rails](https://github.com/rspec/rspec-rails) framework. Coverage reports are generated through [SimpleCov](https://github.com/colszowka/simplecov)
