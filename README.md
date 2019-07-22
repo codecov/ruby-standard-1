@@ -1,4 +1,4 @@
-# Ruby-Standard
+# Ruby-Standard-1 | With Codecov Gem
 
 ## TO-DO: Add build and coverage flags
 
@@ -6,7 +6,7 @@
 
 ## What is this?
 
-This is a **Ruby on Rails** application, with basic unit tests, for which coverage is uploaded to Codecov on a daily basis. It can also serve as an example for how to integrate Codecov into your Ruby project. If the build is passing for this project, then Codecov's Ruby report processing is functional and correct on codecov.io.
+This is a **Ruby on Rails** application, with basic unit tests, for which coverage is uploaded to Codecov on a daily basis via the [Codecov Gem](https://rubygems.org/gems/codecov/versions/0.1.4). It can also serve as an example for how to integrate Codecov into your Ruby project. If the build is passing for this project, then Codecov's Ruby report processing is functional and correct on codecov.io.
 
 ## Configuration
 
