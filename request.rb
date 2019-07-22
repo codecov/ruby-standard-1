@@ -5,14 +5,19 @@ require 'json'
 
 puts "Codecov API Validation\n"
 
-response_data = RestClient::Request.execute(method: :get, url: 'https://codecov.io/api/gh/codecov/Ruby-Standard-1', headers: {token: ENV['API_KEY']})
-
 puts "Waiting 60 seconds for report to upload before pinging API...\n"
 
 #nap time
 sleep(60)
 
-print("Pinging Codecov's API..\n")
+puts "Pinging Codecov's API..\n"
+
+response_data = RestClient::Request.execute(method: :get, url: 'https://codecov.io/api/gh/codecov/Ruby-Standard-1', headers: {token: ENV['API_KEY']})
+
+puts "Response data \n"
+puts response_data
+
+
 #Parse request data to JSON format
 to_json = JSON.parse(response_data)
 
