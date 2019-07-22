@@ -12,7 +12,7 @@ sleep(60)
 
 puts "Pinging Codecov's API..\n"
 
-response_data = RestClient::Request.execute(method: :get, url: 'https://codecov.io/api/gh/codecov/Ruby-Standard-1', headers: {token: ENV['API_KEY']})
+response_data = RestClient.get('https://codecov.io/api/gh/codecov/Ruby-Standard-1', params: {token: ENV['API_KEY']})
 
 puts "Response data \n"
 puts response_data
