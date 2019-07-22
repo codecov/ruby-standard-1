@@ -1,6 +1,6 @@
 # Ruby-Standard-1 (Codecov Gem Edition)
 
-## TO-DO: Add build and coverage flags
+[![Build Status](https://travis-ci.org/codecov/Ruby-Standard-1.svg?branch=master)](https://travis-ci.org/codecov/Ruby-Standard-1)
 
 ### Last Updated: never
 
