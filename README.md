@@ -1,4 +1,4 @@
-# Ruby-Standard-1 | With Codecov Gem
+# Ruby-Standard-1 (Codecov Gem Edition)
 
 ## TO-DO: Add build and coverage flags
 
