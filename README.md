@@ -14,7 +14,7 @@ This repo, Ruby-Standard-1, uses the Codecov gem to process coverage reports, wh
 
 ## Configuration
 
-This project is written in `Ruby 2.6.3` using `Rails 5.2.3`. Unit tests are written in the [RSpec Rails](https://github.com/rspec/rspec-rails) framework. Coverage reports are generated through [SimpleCov](https://github.com/colszowka/simplecov)
+This project is written in `Ruby 2.6.3` using `Rails 5.2.3`. Unit tests are written in the [RSpec Rails](https://github.com/rspec/rspec-rails) framework. Coverage reports are generated through the [SimpleCov](https://github.com/colszowka/simplecov) gem.
 
 Unit tests: `spec/index_spec.rb` which tests `lib/index.rb`
 
