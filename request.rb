@@ -14,7 +14,7 @@ end
 #nap time  
 def nap
     puts "Waiting 60 seconds for report to upload before pinging API...\n"
-    sleep(180)
+    sleep(60)
 end
 
 def ping_api
