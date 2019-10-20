@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/codecov/Ruby-Standard-1.svg?branch=master)](https://travis-ci.org/codecov/Ruby-Standard-1) [![codecov](https://codecov.io/gh/codecov/Ruby-Standard-1/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/Ruby-Standard-1)
 
-### Last Updated: 10/19/19 17:15:24
+### Last Updated: 10/20/19 17:15:22
 
 ## What is this?
 
