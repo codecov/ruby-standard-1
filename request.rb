@@ -11,7 +11,7 @@ def run!
     ping_api
 end
 
-#nap time  
+#nap time
 def nap
     puts "Waiting 60 seconds for report to upload before pinging API...\n"
     sleep(60)
@@ -22,7 +22,7 @@ def ping_api
 
     #REST call
     response_data = RestClient.get('https://codecov.io/api/gh/codecov/Ruby-Standard-1', params: {token: ENV['API_KEY']})
-   
+
     #Parse request data to JSON format
     to_json = JSON.parse(response_data)
 
@@ -35,7 +35,7 @@ def ping_api
     if coverage_percentage == ENV['CORRECT_COVERAGE']
         puts "Success! Codecov's API returned the correct coverage percentage, "+ ENV['CORRECT_COVERAGE']
         exit 0
-    else 
+    else
         puts "Whoops, something is wrong D: Codecov did not return the correct coverage percentage. Coverage percentage should be "+ ENV['CORRECT_COVERAGE'] +" but Codecov returned "+coverage_percentage
         exit 1
     end
