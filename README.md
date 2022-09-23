@@ -42,6 +42,5 @@ If you've discovered an issue with this repository or with Ruby processing in ge
 
 Contributions are welcome! If you'd like to contribute to this repository, feel free to open a pull request or flag an issue. If you would like to contribute a new lanaguage standard, [you can get more information here](https://github.com/codecov/standards-scripts/blob/master/README.md#contributing). 
 
-
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fruby-standard-1.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fruby-standard-1?ref=badge_large)
